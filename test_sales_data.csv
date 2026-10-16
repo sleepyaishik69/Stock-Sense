@@ -1,0 +1,103 @@
+transaction_id,date,sku,product_name,category,quantity,unit_price,discount,tax,unit_cost,return
+TEST-0001,2026-10-08,SKU-1001,Arabica Coffee 250g,Grocery,1,349,0,0,198,false
+TEST-0001,2026-10-08,SKU-1003,Basmati Rice 5kg,Grocery,2,599,0,0,420,false
+TEST-0002,2026-10-01,SKU-1012,Bluetooth Earbuds,Electronics,2,1499,0,0,990,false
+TEST-0002,2026-10-01,SKU-1009,Herbal Shampoo 300ml,Personal Care,1,279,0,0,164,false
+TEST-0002,2026-10-01,SKU-1007,Notebook A5,Stationery,1,89,0,0,34,false
+TEST-0003,2026-10-01,SKU-1005,Steel Water Bottle,Home,3,399,0,0,210,false
+TEST-0003,2026-10-01,SKU-1012,Bluetooth Earbuds,Electronics,4,1499,0,0,990,false
+TEST-0003,2026-10-01,SKU-1008,Gel Pen Pack,Stationery,4,120,24,0,48,false
+TEST-0004,2026-09-15,SKU-1003,Basmati Rice 5kg,Grocery,2,599,59.9,0,420,true
+TEST-0005,2026-09-20,SKU-1004,Olive Oil 1L,Grocery,4,749,0,0,510,false
+TEST-0006,2026-09-12,SKU-1009,Herbal Shampoo 300ml,Personal Care,3,279,0,0,164,false
+TEST-0007,2026-09-20,SKU-1014,Trail Mix 200g,Snacks,3,185,0,0,104,false
+TEST-0007,2026-09-20,SKU-1005,Steel Water Bottle,Home,2,399,0,0,210,false
+TEST-0007,2026-09-20,SKU-1001,Arabica Coffee 250g,Grocery,3,349,0,0,198,false
+TEST-0008,2026-10-11,SKU-1006,Cotton Tote Bag,Accessories,1,249,12.45,0,92,false
+TEST-0009,2026-09-04,SKU-1014,Trail Mix 200g,Snacks,2,185,0,0,104,true
+TEST-0009,2026-09-04,SKU-1007,Notebook A5,Stationery,2,89,0,0,34,false
+TEST-0009,2026-09-04,SKU-1002,Masala Tea 500g,Beverages,4,229,0,0,126,false
+TEST-0010,2026-09-23,SKU-1013,Dark Chocolate 100g,Snacks,3,110,0,0,54,false
+TEST-0010,2026-09-23,SKU-1011,LED Desk Lamp,Home,1,899,0,0,580,false
+TEST-0011,2026-09-24,SKU-1013,Dark Chocolate 100g,Snacks,2,110,0,0,54,false
+TEST-0011,2026-09-24,SKU-1007,Notebook A5,Stationery,2,89,0,0,34,false
+TEST-0011,2026-09-24,SKU-1004,Olive Oil 1L,Grocery,2,749,74.9,0,510,true
+TEST-0012,2026-09-27,SKU-1013,Dark Chocolate 100g,Snacks,2,110,11,0,54,false
+TEST-0012,2026-09-27,SKU-1003,Basmati Rice 5kg,Grocery,1,599,0,0,420,false
+TEST-0013,2026-10-01,SKU-1006,Cotton Tote Bag,Accessories,4,249,0,0,92,true
+TEST-0013,2026-10-01,SKU-1003,Basmati Rice 5kg,Grocery,1,599,0,0,420,false
+TEST-0014,2026-09-18,SKU-1004,Olive Oil 1L,Grocery,4,749,0,0,510,false
+TEST-0014,2026-09-18,SKU-1011,LED Desk Lamp,Home,1,899,0,0,580,false
+TEST-0015,2026-09-11,SKU-1009,Herbal Shampoo 300ml,Personal Care,3,279,0,0,164,false
+TEST-0015,2026-09-11,SKU-1008,Gel Pen Pack,Stationery,4,120,0,0,48,false
+TEST-0015,2026-09-11,SKU-1001,Arabica Coffee 250g,Grocery,2,349,34.9,0,198,false
+TEST-0016,2026-09-14,SKU-1009,Herbal Shampoo 300ml,Personal Care,1,279,0,0,164,false
+TEST-0016,2026-09-14,SKU-1005,Steel Water Bottle,Home,1,399,0,0,210,false
+TEST-0016,2026-09-14,SKU-1014,Trail Mix 200g,Snacks,1,185,0,0,104,false
+TEST-0017,2026-09-10,SKU-1013,Dark Chocolate 100g,Snacks,4,110,0,0,54,false
+TEST-0018,2026-09-03,SKU-1007,Notebook A5,Stationery,1,89,0,0,34,false
+TEST-0019,2026-09-29,SKU-1002,Masala Tea 500g,Beverages,4,229,0,0,126,false
+TEST-0019,2026-09-29,SKU-1001,Arabica Coffee 250g,Grocery,4,349,0,0,198,false
+TEST-0019,2026-09-29,SKU-1004,Olive Oil 1L,Grocery,2,749,74.9,0,510,false
+TEST-0020,2026-09-03,SKU-1013,Dark Chocolate 100g,Snacks,4,110,0,0,54,false
+TEST-0021,2026-09-06,SKU-1011,LED Desk Lamp,Home,4,899,0,0,580,false
+TEST-0021,2026-09-06,SKU-1008,Gel Pen Pack,Stationery,1,120,6,0,48,false
+TEST-0021,2026-09-06,SKU-1006,Cotton Tote Bag,Accessories,2,249,24.9,0,92,false
+TEST-0022,2026-09-16,SKU-1001,Arabica Coffee 250g,Grocery,3,349,0,0,198,false
+TEST-0022,2026-09-16,SKU-1006,Cotton Tote Bag,Accessories,1,249,12.45,0,92,false
+TEST-0022,2026-09-16,SKU-1008,Gel Pen Pack,Stationery,2,120,0,0,48,false
+TEST-0023,2026-09-20,SKU-1013,Dark Chocolate 100g,Snacks,4,110,0,0,54,false
+TEST-0023,2026-09-20,SKU-1011,LED Desk Lamp,Home,4,899,0,0,580,false
+TEST-0023,2026-09-20,SKU-1014,Trail Mix 200g,Snacks,3,185,0,0,104,false
+TEST-0024,2026-10-10,SKU-1009,Herbal Shampoo 300ml,Personal Care,2,279,27.9,0,164,false
+TEST-0024,2026-10-10,SKU-1011,LED Desk Lamp,Home,3,899,0,0,580,false
+TEST-0024,2026-10-10,SKU-1007,Notebook A5,Stationery,1,89,0,0,34,false
+TEST-0025,2026-09-11,SKU-1007,Notebook A5,Stationery,3,89,0,0,34,false
+TEST-0025,2026-09-11,SKU-1006,Cotton Tote Bag,Accessories,2,249,0,0,92,false
+TEST-0025,2026-09-11,SKU-1012,Bluetooth Earbuds,Electronics,4,1499,299.8,0,990,false
+TEST-0026,2026-09-07,SKU-1006,Cotton Tote Bag,Accessories,1,249,0,0,92,false
+TEST-0026,2026-09-07,SKU-1010,Hand Wash 500ml,Personal Care,2,145,0,0,71,false
+TEST-0026,2026-09-07,SKU-1001,Arabica Coffee 250g,Grocery,4,349,69.8,0,198,false
+TEST-0027,2026-09-26,SKU-1010,Hand Wash 500ml,Personal Care,1,145,0,0,71,false
+TEST-0028,2026-09-20,SKU-1003,Basmati Rice 5kg,Grocery,4,599,0,0,420,false
+TEST-0028,2026-09-20,SKU-1008,Gel Pen Pack,Stationery,4,120,0,0,48,false
+TEST-0029,2026-10-13,SKU-1010,Hand Wash 500ml,Personal Care,1,145,7.25,0,71,false
+TEST-0030,2026-09-29,SKU-1012,Bluetooth Earbuds,Electronics,3,1499,0,0,990,false
+TEST-0030,2026-09-29,SKU-1001,Arabica Coffee 250g,Grocery,4,349,0,0,198,false
+TEST-0030,2026-09-29,SKU-1013,Dark Chocolate 100g,Snacks,4,110,0,0,54,false
+TEST-0031,2026-10-07,SKU-1010,Hand Wash 500ml,Personal Care,4,145,0,0,71,true
+TEST-0031,2026-10-07,SKU-1003,Basmati Rice 5kg,Grocery,3,599,0,0,420,false
+TEST-0031,2026-10-07,SKU-1001,Arabica Coffee 250g,Grocery,1,349,0,0,198,false
+TEST-0032,2026-10-04,SKU-1002,Masala Tea 500g,Beverages,1,229,0,0,126,false
+TEST-0032,2026-10-04,SKU-1001,Arabica Coffee 250g,Grocery,3,349,52.35,0,198,false
+TEST-0033,2026-10-04,SKU-1007,Notebook A5,Stationery,4,89,17.8,0,34,false
+TEST-0033,2026-10-04,SKU-1001,Arabica Coffee 250g,Grocery,4,349,69.8,0,198,false
+TEST-0034,2026-10-06,SKU-1013,Dark Chocolate 100g,Snacks,2,110,11,0,54,false
+TEST-0035,2026-10-10,SKU-1011,LED Desk Lamp,Home,4,899,179.8,0,580,false
+TEST-0036,2026-10-04,SKU-1008,Gel Pen Pack,Stationery,4,120,0,0,48,false
+TEST-0036,2026-10-04,SKU-1004,Olive Oil 1L,Grocery,4,749,149.8,0,510,false
+TEST-0037,2026-09-23,SKU-1003,Basmati Rice 5kg,Grocery,4,599,0,0,420,false
+TEST-0037,2026-09-23,SKU-1004,Olive Oil 1L,Grocery,3,749,0,0,510,false
+TEST-0038,2026-10-02,SKU-1005,Steel Water Bottle,Home,4,399,0,0,210,false
+TEST-0038,2026-10-02,SKU-1011,LED Desk Lamp,Home,4,899,179.8,0,580,false
+TEST-0038,2026-10-02,SKU-1008,Gel Pen Pack,Stationery,3,120,18,0,48,false
+TEST-0039,2026-09-07,SKU-1002,Masala Tea 500g,Beverages,1,229,0,0,126,false
+TEST-0039,2026-09-07,SKU-1011,LED Desk Lamp,Home,1,899,0,0,580,false
+TEST-0039,2026-09-07,SKU-1004,Olive Oil 1L,Grocery,1,749,0,0,510,false
+TEST-0040,2026-10-12,SKU-1007,Notebook A5,Stationery,2,89,8.9,0,34,false
+TEST-0040,2026-10-12,SKU-1008,Gel Pen Pack,Stationery,1,120,0,0,48,false
+TEST-0041,2026-10-05,SKU-1014,Trail Mix 200g,Snacks,4,185,0,0,104,true
+TEST-0041,2026-10-05,SKU-1006,Cotton Tote Bag,Accessories,4,249,0,0,92,false
+TEST-0042,2026-10-11,SKU-1003,Basmati Rice 5kg,Grocery,1,599,0,0,420,false
+TEST-0042,2026-10-11,SKU-1002,Masala Tea 500g,Beverages,3,229,0,0,126,false
+TEST-0043,2026-09-01,SKU-1001,Arabica Coffee 250g,Grocery,3,349,0,0,198,false
+TEST-0043,2026-09-01,SKU-1013,Dark Chocolate 100g,Snacks,3,110,0,0,54,false
+TEST-0043,2026-09-01,SKU-1012,Bluetooth Earbuds,Electronics,2,1499,0,0,990,false
+TEST-0044,2026-10-07,SKU-1008,Gel Pen Pack,Stationery,3,120,18,0,48,false
+TEST-0045,2026-10-08,SKU-1008,Gel Pen Pack,Stationery,3,120,0,0,48,false
+TEST-0045,2026-10-08,SKU-1013,Dark Chocolate 100g,Snacks,3,110,16.5,0,54,false
+TEST-0046,2026-10-07,SKU-1004,Olive Oil 1L,Grocery,3,749,0,0,510,false
+TEST-0046,2026-10-07,SKU-1011,LED Desk Lamp,Home,1,899,0,0,580,false
+TEST-0046,2026-10-07,SKU-1007,Notebook A5,Stationery,2,89,0,0,34,false
+TEST-0047,2026-09-29,SKU-1005,Steel Water Bottle,Home,4,399,0,0,210,false
+TEST-0048,2026-09-06,SKU-1002,Masala Tea 500g,Beverages,2,229,22.9,0,126,false

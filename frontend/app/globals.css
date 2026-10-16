@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@theme {
+  --color-ink: #172b27;
+  --color-mint: #e8f4ed;
+  --color-forest: #16724e;
+  --shadow-soft: 0 12px 36px rgba(28,54,43,.06);
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+}
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f5f8f6; color: #172b27; font-family: var(--font-geist), ui-sans-serif, system-ui, sans-serif; font-feature-settings: "ss01" on; }
+button, input, select, textarea { font: inherit; }
+button, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid rgba(22,114,78,.22); outline-offset: 2px; }
+.scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+.scrollbar::-webkit-scrollbar-thumb { background: #d2ddd6; border-radius: 9px; }
+.answer-content p { margin: 0; }
+.answer-content h2, .answer-content h3 { margin: 1.15rem 0 .55rem; color: #172b27; font-size: 1rem; font-weight: 650; letter-spacing: -.02em; }
+.answer-content ul, .answer-content ol { margin: .4rem 0; padding-left: 1.35rem; }
+.answer-content li { padding-left: .25rem; }
+.answer-content li + li { margin-top: .35rem; }
+.answer-content strong { color: #172b27; font-weight: 650; }
+.answer-content code { border-radius: .35rem; background: #f1f5f2; padding: .1rem .35rem; font-size: .9em; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; } }
